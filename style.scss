@@ -49,4 +49,14 @@ footer {
     text-align: center;
     font-size: 0.6rem;
     color: var(--GrayisBblue);
+
+    a {
+        font-weight: bold;
+        text-decoration: none;
+        color: var(--GrayisBblue);
+
+        &:hover {
+            color: var(--DarkBlue);
+        }
+    }
 }
